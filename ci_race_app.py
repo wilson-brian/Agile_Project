@@ -23,19 +23,4 @@ def show_race_results():
         minutes, seconds = divmod(time, 60)
         print(f"{runners[runner_id]} ({runner_id}): {minutes}m {seconds}s")
 
-def main():
-    while True:
-        print("\nMain Menu:")
-        print("1. Show Race Results")
-        print("2. Quit")
-        choice = input("Enter your choice: ")
-        if choice == '1':
-            show_race_results()
-        elif choice == '2':
-            print("Goodbye!")
-            break
-        else:
-            print("Invalid choice. Try again.")
 
-if __name__ == "__main__":
-    main()
