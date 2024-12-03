@@ -4,7 +4,6 @@ import os
 base_path = os.path.dirname(os.path.abspath(__file__))
 race_files_path = os.path.join(base_path, "Race_Files")
 
-
 def read_integer_between_numbers(prompt, mini, maximum):
     while True:
         try:
